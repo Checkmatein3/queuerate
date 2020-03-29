@@ -2,7 +2,7 @@ import axios from 'axios'
 
 /* Default API */
 export const axiosObj =  axios.create({
-  baseURL: 'http://api.curator.codifyr.ca',
+  baseURL: 'http://queuerate-backend-dev.ca-central-1.elasticbeanstalk.com/',
   headers: {
     'Authorization': 'token here'
   },

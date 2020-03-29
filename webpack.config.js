@@ -12,7 +12,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       hash: false,
-      title: "Curation Page",
+      title: "QueueRate Page",
       template: "index.html",
       filename: "index.html" //relative to root of the application
     }),

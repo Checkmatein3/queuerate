@@ -1,17 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Curator App
+## Required Environment Variables
 
-* git pull
-* cd client
-* yarn install
-* yarn build
-* cd
-* sudo mv curator/client/dist/* /var/www/html/
-* sudo systemctl stop nginx
-* sudo systemctl start nginx
-* sudo systemctl restart curator.service
-* sudo systemctl restart celery.service
+* QUEUERATE_API_URL: The queuerate backend endpoint.
 
 ## Available Scripts
 
