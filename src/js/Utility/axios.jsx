@@ -2,7 +2,7 @@ import axios from 'axios'
 
 /* Default API */
 export const axiosObj =  axios.create({
-  baseURL: 'https://queuerate-backend-dev.ca-central-1.elasticbeanstalk.com/',
+  baseURL: 'https://queuerate-backend.danielkolodzi.com/',
   headers: {
     'Authorization': 'token here'
   },
